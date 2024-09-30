@@ -46,4 +46,8 @@ service cloud.firestore {
       allow read, write,update,delete,create: if  request.auth!=null&&request.auth.uid==resource.data.uid;
     }
   }
-}# React-Firebase-Authentication-Project
+}
+# React-Firebase-Authentication-Project
+![Zight Recording 2024-09-30 at 11 44 22 PM](https://github.com/user-attachments/assets/22a0918f-c86e-44cd-9066-9daa49a84742)
+
+
